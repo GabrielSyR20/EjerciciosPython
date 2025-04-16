@@ -11,3 +11,8 @@ if edad >= 18:
 else:
     print("Eres menor de edad")
 print("---------------------------------------------------------")
+
+mascotas = ["perro", "gato", "loro"]
+print(mascotas[0])
+print(mascotas[1]) 
+print(mascotas[2])
