@@ -16,3 +16,8 @@ mascotas = ["perro", "gato", "loro"]
 print(mascotas[0])
 print(mascotas[1]) 
 print(mascotas[2])
+if "perro" in mascotas:
+    print("El perro es una mascota")
+else:
+        print("El perro no es una mascota")
+print("---------------------------------------------------------")
