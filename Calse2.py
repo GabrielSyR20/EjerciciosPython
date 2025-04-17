@@ -1,8 +1,7 @@
-edad = 23
+edad = 0
 nombre = "patricio"
 
-print(nombre)
-print(edad)
+edad = int(input("Ingrese su edad: "))
 
 print(f"Hola {nombre}, tienes {edad} años")
 
@@ -21,3 +20,10 @@ if "perro" in mascotas:
 else:
         print("El perro no es una mascota")
 print("---------------------------------------------------------")
+
+hijos = int(input("Cuantos hijos tienes?: "))
+if hijos == 0:
+    print("No tengo hijos")
+else:
+    print(f"Tengo {hijos} hijos")
+     
